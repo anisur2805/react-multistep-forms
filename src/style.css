@@ -1,0 +1,26 @@
+.App-header {
+	display: grid;
+	place-items: center;
+}
+
+
+.btn {
+	border-radius: 25px;
+	padding: 10px 25px;
+	text-align: center;
+	border: 0;
+	font-size: 20px;
+}
+.modal-content {
+	padding: 20px 30px;
+	border-radius: 25px; 
+}
+/* .modal.fade {
+    max-width: 600px;
+    border-radius: 25px; 
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.58);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} */
