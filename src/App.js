@@ -1,18 +1,19 @@
 import React from "react";
-// import Home from "./components/Home";
+import MultiStepForm from "./components/multi-step-Form";
+import SingleStepForm from "./components/singleForm/Form";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import Calculator from "./components/boil/Calculator";
-// import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header text-center">
-        {/* <Home /> */}
-        {/* <Form /> */}
-        <Calculator />
+        {/* Multi step form goes here */}
+        <MultiStepForm />
+
+        {/* Single step form goes here */}
+        {/* <SingleStepForm /> */}
       </header>
     </div>
   );
